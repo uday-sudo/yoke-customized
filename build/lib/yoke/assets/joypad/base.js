@@ -4,22 +4,22 @@
 // Octant refers to the 8 sectors in which the area of a joystick is divided.
 // These 8 sectors are more or less aligned with the cardinal directions,
 // and allow one to feel when one is changing directions without looking.
-var VIBRATE_ON_OCTANT_BOUNDARY = true;
-var VIBRATE_ON_PAD_BOUNDARY = true;
+var VIBRATE_ON_OCTANT_BOUNDARY = false;
+var VIBRATE_ON_PAD_BOUNDARY = false;
 var VIBRATE_PROPORTIONALLY_TO_DISTANCE = false;
 // These 2 options are recommended for testing in non-kiosk/non-embedded browsers:
 var WAIT_FOR_FULLSCREEN = false;
 var DEBUG_NO_CONSOLE_SPAM = true;
 // Duration of vibration when clicking a button (onTouchStart):
-var VIBRATION_MILLISECONDS_IN = 40;
+var VIBRATION_MILLISECONDS_IN = 0;
 // Duration of vibration when changing octants in a joystick:
-var VIBRATION_MILLISECONDS_OVER = 20;
+var VIBRATION_MILLISECONDS_OVER = 0;
 // Duration of vibration when forcing a control over the maximum or the minimum:
-var VIBRATION_MILLISECONDS_SATURATION = [9, 11];
+var VIBRATION_MILLISECONDS_SATURATION = [0, 0];
 // Duration of vibration when pushing a thumb joystick down or releasing it:
-var VIBRATION_MILLISECONDS_THUMB = 45;
+var VIBRATION_MILLISECONDS_THUMB = 0;
 // Duration of vibration when clicking a D-Pad button (this.state change):
-var VIBRATION_MILLISECONDS_DPAD = 35;
+var VIBRATION_MILLISECONDS_DPAD = 0;
 // Length, relative to the D-pad, of the hitbox of a D-pad leg, from border to center:
 var DPAD_BUTTON_LENGTH = 0.4;
 // Length, relative to the D-pad, of the hitbox of a D-pad leg, measured perpendicularly to the length:

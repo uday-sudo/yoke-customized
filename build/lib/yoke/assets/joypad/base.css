@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    background: #0099CC;
+    background: #2c2041;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -87,20 +87,21 @@ div {
 /* Joysticks */
 .joystick {
     background-image: url("img/joystick.svg");
-    background-color: hsl(196, 77%, 55%);
-    border: 3px hsl(188, 100%, 50%) solid;
+    background-color: hsl(257, 34%, 29%);
+    border: 2px hsl(275, 51%, 16%) solid;
+    border-radius: 10px;
 }
 .circle {
-    background-color: black;
-    width: 20px;
-    height: 20px;
+    background-color: rgb(21, 159, 140);
+    width: 40px;
+    height: 40px;
     border-radius: 100%;
     z-index: 2;
     position: absolute;
     left: 0px;
     top: 0px;
 }
-.joystick.thumb > .circle { background-color: #444; }
+.joystick.thumb > .circle { background-color: rgb(34, 28, 49); }
 .joystick.pressed {
     background-color: hsl(196, 77%, 33%);
     border: 3px hsl(188, 100%, 30%) solid;
