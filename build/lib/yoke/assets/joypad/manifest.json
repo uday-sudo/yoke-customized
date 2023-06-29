@@ -1,2 +1,1 @@
-/* This file will be overwritten when you run bin/yoke.
-It is safe to delete when Yoke is not in use. */
+{"folders": ["img"], "files": ["dpad.css", "testing.css", "main.html", "base.css", "newpad.css", "gamepad.css", "base.js", "racing.css", "img/bm.svg", "img/analog.svg", "img/button.svg", "img/bg.svg", "img/joystick.svg", "img/dp.svg", "img/bs.svg", "img/motiontrinket.svg"], "size": 71707, "mtime": 1666414786.3292055}

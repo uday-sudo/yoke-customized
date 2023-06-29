@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!python
 import yoke
 import argparse
 import sys

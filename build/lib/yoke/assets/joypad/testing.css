@@ -7,15 +7,15 @@
     /* The map below must match the number of rows and columns specified above.
      * Controls may cover any rectangular area.
      * Do not try drawing non-rectangular shapes. */
-        ".   pa  pa  .   k1  k1  .   .   .   .   .   dp  dp  dp  .   .   "
-        ".   pa  pa  .   k1  k1  .   .   .   .   .   dp  dp  dp  .   .   "
-        ".   pa  pa  .   k1  k1  .   .   x   .   .   dp  dp  dp  .   .   "
+        ".   .   .   .   .   .   .   .   .   .   .   .   .   .   KL  KL  "
+        ".   .   .   .   .   .   .   ER  ER  .   EN  EN  .   .   KL  KL  "
         ".   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   "
-        ".   mz  mz  b1  b1  b1  b1  b1  .   a1  a1  a1  .   .   .   .   "
-        ".   mz  mz  b1  b1  b1  b1  b1  .   a1  a1  a1  a2  a2  .   .   "
-        ".   mz  mz  b1  b1  b1  b1  b1  .   a1  a1  a1  a2  a2  .   .   "
-        ".   .   .   b1  b1  b1  b1  b1  .   .   .   a3  a4  a4  a4  a4  "
-        "dbg dbg dbg dbg dbg dbg dbg dbg dbg dbg dbg dbg dbg dbg dbg dbg "
+        ".   .   .   .   .   .   .   .   .   .   .   .   .   .   SP  SP  "
+        ".   KS  KS  KS  KD  KD  KD  .   .   .   .   KW  KW  .   SP  SP  "
+        ".   KS  KS  KS  KD  KD  KD  .   .   .   .   KW  KW  .   KS  KS  "
+        ".   KS  KS  KS  KD  KD  KD  .   .   .   .   KW  KW  .   KS  KS  "
+        ".   .   .   .   .   .   .   .   .   .   .   .   KX  KX  KG  KG  "
+        ".   .   .   .   .   .   .   .   .   .   .   .   KX  KX  KG  KG  "
         ;
         /* Possible values:
          * j1, j2, j3... for joystick (returns to center when released);

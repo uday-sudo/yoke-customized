@@ -651,5 +651,15 @@ ALIAS = {
 'b22': 'BTN_BASE5',
 'b23': 'BTN_BASE6',
 'b24': 'BTN_TRIGGER',
-'dp': 'BTN_DPAD_UP,BTN_DPAD_LEFT,BTN_DPAD_DOWN,BTN_DPAD_RIGHT',
+'dp': 'BTN_DPAD_UP,BTN_DPAD_LEFT,BTN_DPAD_DOWN,BTN_DPAD_RIGHT',#Personal Alias
+'KA': 'KEY_A',
+'KS': 'KEY_S',
+'KD': 'KEY_D',
+'KW': 'KEY_W',
+'SP': 'KEY_SPACE',
+'KG': 'KEY_G',
+'KX': 'KEY_X',
+'ER': 'KEY_ESC',
+'KL': 'KEY_L',
+'EN': 'KEY_ENTER'
 }

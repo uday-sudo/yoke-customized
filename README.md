@@ -7,7 +7,7 @@
 
 ![Yoke WebView](media/yoke_webview.gif)
 
-Download the Android app from [GitHub](devel/app-debug.apk). This version is not available in F-Droid or Google Play yet, please be patient.
+Download the Android app from [GitHub](https://github.com/uday-sudo/yoke-android). This version is not available in F-Droid or Google Play.
 
 ## Security warning
 
@@ -29,7 +29,7 @@ If you want Yoke ported to another OS, please point us in the direction of a fre
 You can either download Yoke using Git:
 
 ```bash
-git clone --depth 1 https://github.com/rmst/yoke
+git clone --depth 1 https://github.com/uday-sudo/yoke-customized
 ```
 
 or you can click Clone or Download → Download ZIP, then extract. Then, enter the newly created folder:
